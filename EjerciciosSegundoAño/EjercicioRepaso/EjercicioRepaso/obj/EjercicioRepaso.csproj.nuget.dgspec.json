@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pepel\\source\\repos\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj": {}
+    "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pepel\\source\\repos\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj": {
+    "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pepel\\source\\repos\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj",
+        "projectUniqueName": "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj",
         "projectName": "EjercicioRepaso",
-        "projectPath": "C:\\Users\\pepel\\source\\repos\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj",
+        "projectPath": "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjercicioRepaso\\EjercicioRepaso\\EjercicioRepaso.csproj",
         "packagesPath": "C:\\Users\\pepel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pepel\\source\\repos\\EjercicioRepaso\\EjercicioRepaso\\obj\\",
+        "outputPath": "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjercicioRepaso\\EjercicioRepaso\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
