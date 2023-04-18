@@ -227,6 +227,7 @@ namespace Latta
             int Codigo_may = 0;
             int Ventas_ej1 = 0;
             int Costo_Ventas = 0;
+            string NombreProduc = "";
 
             for (int i = 0; i < 3; i++)
             {
@@ -234,6 +235,9 @@ namespace Latta
                 {
                     Console.WriteLine("Ingrese el codigo del producto (con 0 se finaliza):");
                     CodigoProducto = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Ingrese el nombre del producto: ");
+                    NombreProduc = Console.ReadLine();
 
                     Console.WriteLine("Ingrese el costo");
                     Precio_ej1 = int.Parse(Console.ReadLine());
@@ -255,9 +259,19 @@ namespace Latta
                     {
                         Console.WriteLine("La cantidad menos las ventas del producto: " + CodigoProducto + "es: " + Costo_Ventas);
                     }
+                    if (Ventas_ej1 < 10)
+                    {
+                        Console.WriteLine("El producto: " + NombreProduc + "tiene un total de ventas menor a 10 unidades");
+                    }
                 }
             }
             Console.WriteLine("El codigo con mayor cantidad es: " + Codigo_may);
         }
+
+        // Retomando el ejercicio anterior, a continuación se colocan los nombres para
+        // cada código de producto, (opcional si la carga se realiza del 1 al 10 sin
+        // pedir el código o si se ingresa el código y luego la descripción del mismo)
+        // ; al finalizar la carga de los 10 códigos indicar el nombre de los productos
+        // que tuvieron un total de ventas menor a 10 unidades.
     }
 }
