@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Latta
 {
@@ -58,7 +59,7 @@ namespace Latta
             Prom = NumSum / CantSum;
             Console.WriteLine("El promedio de los numeros ingresados es: " + Prom);
     }
-    */
+    
     class Ej2
     {
 
@@ -219,7 +220,7 @@ namespace Latta
                 Total_adeudado += Total_ej5;
             }
             Console.WriteLine("El total adeudado es: " + Total_adeudado);
-            */
+            
             int CodigoProducto = 1;
             int Precio_ej1 = 0;
             int Cantidad_ej1 = 0;
@@ -269,6 +270,50 @@ namespace Latta
                 }
             }
             Console.WriteLine("El codigo con mayor cantidad es: " + Codigo_may);
+            */
+    using System;
+    using System.Collections.Generic;
+
+    class Repaso3
+    {
+        static void Main(string[] args)
+        {
+            List<string[]> clientes = new List<string[]>();
+
+            while (true)
+            {
+                Console.WriteLine("Ingrese código del cliente (0 para terminar): ");
+                string codigo = Console.ReadLine();
+
+                if (codigo == "0")
+                {
+                    break;
+                }
+
+                Console.WriteLine("Ingrese nombre del cliente: ");
+                string nombre = Console.ReadLine();
+
+                Console.WriteLine("Ingrese dirección del cliente: ");
+                string direccion = Console.ReadLine();
+
+                Console.WriteLine("Ingrese correo electrónico del cliente: ");
+                string correo = Console.ReadLine();
+
+                string[] datosCliente = { codigo, nombre, direccion, correo };
+                clientes.Add(datosCliente);
+            }
+
+            Console.WriteLine("Lista de clientes ingresados:");
+            foreach (string[] cliente in clientes)
+            {
+                Console.WriteLine("Código: " + cliente[0]);
+                Console.WriteLine("Nombre: " + cliente[1]);
+                Console.WriteLine("Dirección: " + cliente[2]);
+                Console.WriteLine("Correo electrónico: " + cliente[3]);
+                Console.WriteLine("-----------------------------");
+            }
+
+            Console.ReadLine();
         }
     }
 }
