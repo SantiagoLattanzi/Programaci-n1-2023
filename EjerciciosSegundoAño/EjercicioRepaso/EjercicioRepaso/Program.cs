@@ -314,6 +314,17 @@ namespace Latta
             }
 
             Console.ReadLine();
+            
+            while (true)
+            {
+                Console.WriteLine("Codigo de cliente, factura: ");
+                string code = Console.ReadLine();
+                if (code == "0")
+                {
+                    break;
+                }
+
+            }
         }
     }
 }
