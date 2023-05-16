@@ -1,0 +1,6 @@
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca 2\bin\Debug\Biblioteca 2.dll
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca 2\bin\Debug\Biblioteca 2.pdb
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca 2\obj\Debug\Biblioteca2_Clases.csproj.AssemblyReference.cache
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca 2\obj\Debug\Biblioteca2_Clases.csproj.CoreCompileInputs.cache
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca 2\obj\Debug\Biblioteca 2.dll
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca 2\obj\Debug\Biblioteca 2.pdb

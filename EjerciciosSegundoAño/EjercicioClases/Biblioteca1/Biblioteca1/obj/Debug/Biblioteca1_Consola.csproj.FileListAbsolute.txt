@@ -1,0 +1,11 @@
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\bin\Debug\Biblioteca1.exe.config
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\bin\Debug\Biblioteca1.exe
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\bin\Debug\Biblioteca1.pdb
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\bin\Debug\Biblioteca 2.dll
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\bin\Debug\Biblioteca 2.pdb
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\obj\Debug\Biblioteca1_Consola.csproj.AssemblyReference.cache
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\obj\Debug\Biblioteca1_Consola.csproj.SuggestedBindingRedirects.cache
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\obj\Debug\Biblioteca1_Consola.csproj.CoreCompileInputs.cache
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\obj\Debug\Biblioteca1_Consola.csproj.CopyComplete
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\obj\Debug\Biblioteca1.exe
+C:\Users\pepel\source\repos\Biblioteca1\Biblioteca1\obj\Debug\Biblioteca1.pdb
