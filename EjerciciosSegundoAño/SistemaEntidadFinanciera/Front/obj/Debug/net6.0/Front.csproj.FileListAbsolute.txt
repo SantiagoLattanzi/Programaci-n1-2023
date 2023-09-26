@@ -1,0 +1,15 @@
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\bin\Debug\net6.0\Front.exe
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\bin\Debug\net6.0\Front.deps.json
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\bin\Debug\net6.0\Front.runtimeconfig.json
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\bin\Debug\net6.0\Front.dll
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\bin\Debug\net6.0\Front.pdb
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.csproj.AssemblyReference.cache
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.AssemblyInfoInputs.cache
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.AssemblyInfo.cs
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.csproj.CoreCompileInputs.cache
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.dll
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\refint\Front.dll
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.pdb
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\Front.genruntimeconfig.cache
+C:\Users\pepel\source\repos\SistemaEntidadFinanciera\Front\obj\Debug\net6.0\ref\Front.dll
