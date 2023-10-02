@@ -1048,16 +1048,6 @@
             "rid": "win"
           }
         }
-      },
-      "Front/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Front.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Front.dll": {}
-        }
       }
     }
   },
@@ -2855,16 +2845,10 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Front/1.0.0": {
-      "type": "project",
-      "path": "../Front/Front.csproj",
-      "msbuildProject": "../Front/Front.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Front >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11"
@@ -2877,11 +2861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pepel\\source\\repos\\SistemaEntidadFinanciera\\Back\\Back.csproj",
+      "projectUniqueName": "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjerciciosSegundoAño\\SistemaEntidadFinanciera\\Back\\Back.csproj",
       "projectName": "Back",
-      "projectPath": "C:\\Users\\pepel\\source\\repos\\SistemaEntidadFinanciera\\Back\\Back.csproj",
+      "projectPath": "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjerciciosSegundoAño\\SistemaEntidadFinanciera\\Back\\Back.csproj",
       "packagesPath": "C:\\Users\\pepel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pepel\\source\\repos\\SistemaEntidadFinanciera\\Back\\obj\\",
+      "outputPath": "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjerciciosSegundoAño\\SistemaEntidadFinanciera\\Back\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2901,11 +2885,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\pepel\\source\\repos\\SistemaEntidadFinanciera\\Front\\Front.csproj": {
-              "projectPath": "C:\\Users\\pepel\\source\\repos\\SistemaEntidadFinanciera\\Front\\Front.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

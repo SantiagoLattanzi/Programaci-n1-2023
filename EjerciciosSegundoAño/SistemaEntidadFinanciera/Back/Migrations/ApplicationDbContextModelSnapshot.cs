@@ -23,23 +23,78 @@ namespace Back.Migrations
 
             modelBuilder.Entity("Back.Cliente", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Apellido")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("DNI")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.ToTable("Clientes");
+                });
+
+            modelBuilder.Entity("Back.CuentaBancaria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("NumeroCuenta")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Saldo")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CuentasBancarias");
+                });
+
+            modelBuilder.Entity("Back.TarjetaDeCredito", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LimiteCredito")
+                        .HasColumnType("int");
+
+                    b.Property<double>("MontoDeuda")
+                        .HasColumnType("float");
+
+                    b.Property<int>("NumeroTarjeta")
+                        .HasColumnType("int");
+
+                    b.Property<double>("SaldoDisponible")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TarjetasDeCredito");
                 });
 #pragma warning restore 612, 618
         }

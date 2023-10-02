@@ -17,6 +17,6 @@ namespace Back
         {
             optionsBuilder.UseSqlServer("server=DESKTOP-BBDE1Q1\\SQLEXPRESS;database=Santi1; trusted_connection = true; Encrypt = False");
         }
-        // Otras propiedades para otras entidades
+       
     }
 }

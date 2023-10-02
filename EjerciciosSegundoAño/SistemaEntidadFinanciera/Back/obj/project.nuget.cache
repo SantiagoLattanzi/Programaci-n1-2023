@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eKxd2wUlZK66sIUPw8wqypTIhJBNQGpcnB78XqUgNA3itJ8D0/BZ2A9W80VidYmcDOM2c9Q9ywXLkrhuhnYmvA==",
+  "dgSpecHash": "C1Jfx4/DvG72KkNAUIj4sAT274mh7W6+/s0TzwHjA/49nONIwjbDYVo7P6JL+T08xQyH9fc5yCqhhKDii2jZsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pepel\\source\\repos\\SistemaEntidadFinanciera\\Back\\Back.csproj",
+  "projectFilePath": "C:\\Users\\pepel\\Documents\\GitHub\\Programaci-n1-2023\\EjerciciosSegundoAño\\SistemaEntidadFinanciera\\Back\\Back.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pepel\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\pepel\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -15,6 +15,7 @@ namespace Back
             context.Clientes.Add(cliente);
             context.SaveChanges();
         }
+
         public void CrearCuentaBancaria(CuentaBancaria cuenta)
         {
             context.CuentasBancarias.Add(cuenta);
@@ -65,7 +66,7 @@ namespace Back
                 context.SaveChanges();
             }
         }
-        public void PagarTarjetaCredito(int tarjetaId, double monto)
+        public bool PagarTarjetaCredito(int tarjetaId, double monto)
         {
             var tarjeta = context.TarjetasDeCredito.Find(tarjetaId);
             if (tarjeta != null && tarjeta.Estado == "Activa")
@@ -74,13 +75,38 @@ namespace Back
                 {
                     tarjeta.MontoDeuda -= monto;
                     context.SaveChanges();
+                    return true;
                 }
                 else
                 {
-                    Console.WriteLine("El pago supera la deuda actual de la tarjeta.");
+                    return false;
                 }
+                
             }
+            else { return false; }
         }
+        public string GenerarResumenTarjeta(int tarjetaId)
+        {
+            var resumen = context.TarjetasDeCredito.Find(tarjetaId);
+            if (resumen != null)
+            {
+                return "Numero Tarjeta: " + resumen.NumeroTarjeta + "\n" + "Estado: " + resumen.Estado + "\n" + "Saldo Disponible: " + resumen.SaldoDisponible + "\n" + "Monto Deuda: " + resumen.MontoDeuda;
+            }
+            else return "Error";
+        }
+        public List<TarjetaDeCredito> DevolverListaTarjeta()
+        {
+            return context.TarjetasDeCredito.ToList();
+        }
+        public List<Cliente> DevolverListaClientes()
+        {
+            return context.Clientes.ToList();
+        }
+        public List<CuentaBancaria> DevolverListaCuentaBancaria()
+        {
+            return context.CuentasBancarias.ToList();
+        }
+
     }
 }
         
